@@ -1,0 +1,36 @@
+<html>
+    <head><title>Kwitter</title>
+        <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julee&family=Mynerve&family=Zeyada&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+        <script src="kwitter_room.js"></script>
+    </link>   
+</head>
+    <body>
+        <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out">Logout</button>
+        <center>
+            <h1  class="header">	
+                Kwitter	
+            </h1>
+            <h4>A safe place to get to know about people from around the world!</h4>
+            <img src="https://cdn-icons-png.flaticon.com/512/2854/2854891.png">
+            <h3 id="name"></h3>
+    
+            <div>
+                <label>Create a Room:</label>
+                <input type="text" id="room_name" class="form-control" placeholder="Enter a Name for your Room...">
+            </div>
+            <br>
+            <br>
+            
+            <button id="addRoom" onclick="addRoom();" class="btn btn-success">Create New Room!</button>
+    
+            <h3>Popular Rooms you could Join!</h3>
+    
+            <div id="output"></div>
+            
+        </center>
+    </div>
+    
+    </body>
+</html>

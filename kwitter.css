@@ -1,0 +1,29 @@
+.text{
+    font-family:Mynerve;
+    font-size: 40px;
+    font-stretch: expanded;
+
+}
+
+.profile{
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+
+}
+body{
+   background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+}
+.img{
+  height: 100px;
+  border-radius:50%;
+}
+label{
+  font-family:Julee;
+}
+button{
+    background-color:rgb(245, 238, 141);
+    border-radius:25%;
+    font-family:Julee;
+    width:120px;
+  }

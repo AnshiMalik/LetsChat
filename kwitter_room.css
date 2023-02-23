@@ -1,0 +1,31 @@
+img{
+    height: 50px;
+    width: 50px;
+}
+h1{
+    font-family: Mynerve;
+}
+body{
+    background-color: darkseagreen;
+}
+h4{
+    font-family:Julee;
+}
+h3{
+    font-family:Julee;
+}
+label{
+    font-family:Julee;
+}
+#addRoom{
+    background-color:blanchedalmond;
+    border-color: blanchedalmond; 
+    border-radius: 20%;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#logout{
+    background-color:rgb(231, 127, 127);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25%;
+    border-color:rgb(231, 127, 127) ;
+}
