@@ -9,3 +9,7 @@ const firebaseConfig = {
   };
 
   const app = initializeApp(firebaseConfig);
+
+function logout(){
+    window.location="kwitter.html";
+}
