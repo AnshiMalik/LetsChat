@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Kwitter Page</title>
+</head>
+<body style="background-color: orange;">
+<p id="msg"></p>
+<button id="logout" class="btn btn-danger">Logout</button>
+<span>
+<input type="text" id="input">
+<button id="Send" onclick="Send()" class="btn btn-success"></button>
+</span>
+
+</html>
